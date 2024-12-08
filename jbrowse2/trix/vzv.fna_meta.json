@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-08T04:34:35.383Z",
+  "tracks": [
+    {
+      "trackId": "gene_vzv.fna.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "gene_vzv.fna.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "gene_vzv.fna.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "vzv.fna"
+  ]
+}
